@@ -1,0 +1,189 @@
+body{
+	background-color: #fff;
+}
+
+
+/* HEADER */
+
+#header-nav{
+	background-color: #808080;
+	border: 4px solid #000;
+	border-radius: 0;
+	padding-bottom: 7px;
+}
+
+.navbar-header h1{
+	color: #000;
+	font-weight: bold;
+}
+
+.navbar-header button{
+	background-color: #d3d3d3;
+}
+
+#btn1{
+	border: 3px solid #000;
+}
+
+#btn1 .icon-bar{
+	color: #000;
+	border: black 2px solid;
+}
+
+	/*END HEADER*/
+
+
+/*MAIN CONTENT*/
+ .container-fluid{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+#main-content h2{
+	font-weight: bold;
+	color: #000;
+	font-size: 2.2em;
+	font-family: cursive;
+	margin-top: 10px;
+}
+
+
+#Chicken, #Beef, #Sushi{
+
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 15px;
+	background-color: #d3d3d3;
+	text-align: center;
+} 
+
+.text-cust{
+	padding-top: 10px;
+	font-weight: bold;
+	color: #000;
+}
+
+.p-sec{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 7px;
+	text-align: justify;
+}
+
+.end-section{
+	text-align: left;
+    padding-left: 20px;
+	padding-bottom: 7px;
+}
+
+.end-section a{
+text-decoration: underline;
+}
+
+.end-section a:hover{
+	font-weight: bold;
+}
+
+/*End of main content*/
+
+
+/********** FOR LARGE DEVICES **********/
+@media(min-width: 1200px){
+
+}
+
+/********** FOR MEDIUM DEVICES **********/
+@media(min-width: 992px) and (max-width: 1199px)
+{
+
+}
+
+/********** FOR Small DEVICES **********/
+@media(min-width: 768px) and (max-width: 991px)
+{
+
+}
+
+/********** FOR XS DEVICES **********/
+@media(max-width: 767px){
+
+	/*HEADER*/
+
+#header-nav{
+	background-color: #808080;
+	border: 4px solid #000;
+	border-radius: 0;
+	padding-bottom: 0;
+}
+
+	#header-nav h1{
+		margin-top: 16px;
+		padding-left: 35px;
+		font-size: 1.9em;
+	}
+
+	#btn1{
+		margin-top: 10px;
+		border: 2px solid #000;
+	}
+
+	#btn1 .icon-bar{
+	color: #000;
+	border: black 1.5px solid;
+}
+
+
+
+.icon-bar-cust{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#collapsable-nav a{
+	color: #000;
+	font-size: 1.3em;
+}
+
+#collapsable-nav a:hover, #collapsable-nav a:focus{
+	text-decoration: none;
+}
+
+#collapsable-nav{
+background-color: #fff;
+}
+
+#collapsable-nav .icon-bar-cust:hover, #collapsable-nav .icon-bar-cust:focus {
+	background-color: #d3d3d3;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.icon-bar-cust hr{
+	height: 2px;
+	background-color: #000;
+	padding: 0;
+	margin: 9px;
+}
+
+	/*END HEADER*/
+
+	/*Main Content*/
+	#main-content h2{
+	font-weight: bold;
+	color: #000;
+	font-size: 1.8em;
+	font-family: cursive;
+	margin-top: 5px;
+}
+
+/*MAIN CONTENT*/
+.text-cust{
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #000;
+}
+
+}
